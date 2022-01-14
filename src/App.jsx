@@ -12,6 +12,7 @@ import Pai from "./components/comunicacao/direta/Pai";
 import Super from "./components/comunicacao/direta/indireta/Super";
 import Input from "./components/form/Input";
 import Contador from "./components/contador/Contador";
+import Mega from "./components/mega/Mega";
 
 
 export default (props) => (
@@ -70,5 +71,10 @@ export default (props) => (
     <Card titulo="Contador">
         <Contador passo={10} valor={100}></Contador>
     </Card>
+
+    <Card titulo="Mega-Sena">
+      <Mega qtdeNumero={6}></Mega>
+    </Card>
+
   </div>
 );
