@@ -11,6 +11,7 @@ import CondicionalComIf from "./components/layout/CondicionalComIf";
 import Pai from "./components/comunicacao/direta/Pai";
 import Super from "./components/comunicacao/direta/indireta/Super";
 import Input from "./components/form/Input";
+import Contador from "./components/contador/Contador";
 
 
 export default (props) => (
@@ -64,6 +65,10 @@ export default (props) => (
 
     <Card titulo="Input">
         <Input></Input>
+    </Card>
+
+    <Card titulo="Contador">
+        <Contador passo={10} valor={100}></Contador>
     </Card>
   </div>
 );
