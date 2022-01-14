@@ -3,10 +3,11 @@ import "./App.css";
 
 import Primeiro from "./components/layout/Primeiro";
 import ComParametro from "./components/layout/ComParametro";
-import ComFilhos from "./components/layout/ComFilhos";
+import ComFilhos from "./components/ComFilhos";
 import Card from "./components/layout/Card";
 import Repetição from "./components/layout/Repetição";
 import Condicional from "./components/layout/Condicional";
+import CondicionalComIf from "./components/layout/CondicionalComIf";
 
 export default (props) => (
   <div className="App">
@@ -35,6 +36,10 @@ export default (props) => (
 
     <Card titulo="Condicional">
             <Condicional numero={11}></Condicional>
+    </Card>
+
+    <Card titulo="CondicionalComIf">
+        <CondicionalComIf numero={10}></CondicionalComIf>
     </Card>
 
     <Card titulo="Primeiro Exercicio">
