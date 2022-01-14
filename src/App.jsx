@@ -10,6 +10,8 @@ import Condicional from "./components/layout/Condicional";
 import CondicionalComIf from "./components/layout/CondicionalComIf";
 import Pai from "./components/comunicacao/direta/Pai";
 import Super from "./components/comunicacao/direta/indireta/Super";
+import Input from "./components/form/Input";
+
 
 export default (props) => (
   <div className="App">
@@ -24,10 +26,10 @@ export default (props) => (
     <Card titulo="Com filhos">
         <ComFilhos>
             <ul>
-            <li>Ana</li>
-            <li>Bia</li>
-            <li>Carlos</li>
-            <li>Daniel</li>
+            <li>André</li>
+            <li>Maga</li>
+            <li>Vinicius</li>
+            <li>Eliseu</li>
             </ul>
         </ComFilhos>
     </Card>
@@ -58,6 +60,10 @@ export default (props) => (
 
     <Card titulo="Comunicação indireta">
         <Super></Super>
+    </Card>
+
+    <Card titulo="Input">
+        <Input></Input>
     </Card>
   </div>
 );
