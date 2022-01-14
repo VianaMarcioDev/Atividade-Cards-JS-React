@@ -8,6 +8,7 @@ import Card from "./components/layout/Card";
 import Repetição from "./components/layout/Repetição";
 import Condicional from "./components/layout/Condicional";
 import CondicionalComIf from "./components/layout/CondicionalComIf";
+import Pai from "./components/comunicacao/direta/Pai";
 
 export default (props) => (
   <div className="App">
@@ -48,6 +49,10 @@ export default (props) => (
         titulo="Esse é o título"
         subtitulo="Esse é o subtitulo"
       ></ComParametro>
+    </Card>
+
+    <Card titulo="Comunicacao Direta">
+        <Pai></Pai>
     </Card>
   </div>
 );
